@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "json-server-auth db.json --host 0.0.0.0"
+        "start": "json-server-auth db.json"
     },
     "author": "korbut13",
     "license": "ISC",

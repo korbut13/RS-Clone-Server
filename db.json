@@ -1,34 +1,98 @@
 {
-    "users": [
-        {
-            "email": "mail@example.com",
-            "name": "John",
-            "password": "$2a$10$YUqF5kLaSlma7IcFNrcKhu9Yy4s3S3tw02T28JsUzbiZk37myZIfK",
-            "id": 1
-        },
-        {
-            "email": "tebba@yandex.ru",
-            "password": "$2a$10$IoiFMWbCqOWs1136CclhiOTH5qD9NGyixyiP8ELqkECz8TFngmtta",
-            "name": "Svetlana",
-            "id": 2
-        }
-    ],
-    "tickets": [
-        {
-            "id": 1,
-            "name": "General ticket",
-            "date": "2023-02-27",
-            "amount": 1,
-            "price": 35,
-            "userId": 1
-        },
-        {
-            "id": 1,
-            "name": "Children ticket",
-            "date": "2023-02-28",
-            "amount": 2,
-            "price": 25,
-            "userId": 1
-        }
-    ]
+  "users": [
+    {
+      "email": "mail@example.com",
+      "name": "John",
+      "surname": "Cook",
+      "phone": "+375291234567",
+      "password": "$2a$10$YUqF5kLaSlma7IcFNrcKhu9Yy4s3S3tw02T28JsUzbiZk37myZIfK",
+      "quisResult": {
+        "scoreLevel1": 2,
+        "scoreLevel2": 6,
+        "scoreLevel3": 6,
+        "scoreLevel4": 4
+      },
+      "id": 1
+    },
+    {
+      "email": "tebba@yandex.ru",
+      "password": "$2a$10$nDn0X3j6AU.pgiBOWD6NSu3lYarWKh8DXrLmeroLbWATcJkH75XqK",
+      "name": "Svetlana",
+      "surname": "Korbut",
+      "phone": "+375447458067",
+      "quisResult": {
+        "scoreLevel1": 0,
+        "scoreLevel2": 0,
+        "scoreLevel3": 1,
+        "scoreLevel4": 1
+      },
+      "id": 2
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "name": "General ticket",
+      "date": "2023-02-27",
+      "amount": 1,
+      "price": 35,
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "name": "Children ticket",
+      "date": "2023-02-28",
+      "amount": 2,
+      "price": 25,
+      "userId": 1
+    },
+    {
+      "name": "4D Cinema",
+      "date": "2023-03-01",
+      "amount": 1,
+      "price": 3,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "The sea in your hands",
+      "date": "2023-03-01",
+      "amount": 1,
+      "price": 7,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "4D Cinema",
+      "date": "2023-03-01",
+      "amount": 4,
+      "price": 12,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "General Ticket",
+      "date": "2023-03-01",
+      "amount": 1,
+      "price": 33.7,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "4D Cinema",
+      "date": "2023-03-01",
+      "amount": 1,
+      "price": 3,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Backstage Tour",
+      "date": "2023-03-03",
+      "amount": 1,
+      "price": 12,
+      "userId": 2,
+      "id": 7
+    }
+  ]
 }
