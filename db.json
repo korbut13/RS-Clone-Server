@@ -45,14 +45,6 @@
             "amount": 2,
             "price": 25,
             "userId": 1
-        },
-        {
-            "name": "General Ticket",
-            "date": "2023-03-02",
-            "amount": 1,
-            "price": 33.7,
-            "userId": 2,
-            "id": 2
         }
     ]
 }
